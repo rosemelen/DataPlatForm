@@ -1,0 +1,5 @@
+2018-07-25 17:11:14  [ pool-4-thread-1:869991 ] - [ ERROR ]  dataplatform query coapdeviceid error :cb0eb8e6-b89a-4b8c-bb21-656c21a73b97
+2018-07-25 17:35:50  [ http-nio-10010-exec-1:17439 ] - [ ERROR ]  
+2018-07-25 17:39:04  [ http-nio-10010-exec-3:211044 ] - [ ERROR ]  
+2018-07-25 17:42:25  [ http-nio-10010-exec-1:11786 ] - [ ERROR ]  
+2018-07-25 17:45:52  [ http-nio-10010-exec-1:14871 ] - [ ERROR ]  1003  Process data error before invoke API.

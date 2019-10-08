@@ -1,0 +1,1 @@
+java -cp "./*;lib/*;config/*;dataplatform.jar" dy.entry.DyDataplatformAccessserviceApplication

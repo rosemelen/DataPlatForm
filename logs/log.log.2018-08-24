@@ -1,0 +1,12 @@
+2018-08-24 10:06:54  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-24 10:07:42  [ NioDatagramAcceptor-2:48577 ] - [ INFO ]  old bolck received data : 0000000095818BBF4103508916FD2D9100000000003800000001000000000028DF654FFED9A59AA3AFEA709CCE5EC5DD9D1B9D4C3336305030303638383839313741344344413344 ip:192.168.2.233 port:10011
+2018-08-24 10:08:50  [ NioDatagramAcceptor-2:116502 ] - [ INFO ]  old bolck received data : 0000000095818BBF4103508916FD2D9100000000003800000001000000000028DF654FFED9A59AA3AFEA709CCE5EC5DD9D1B9D4C3336305030303638383839313741344344413344 ip:192.168.2.233 port:10011
+2018-08-24 10:27:47  [ NioDatagramAcceptor-2:1253208 ] - [ INFO ]  old bolck received data : 000000F500CF80A11100689C1BAF3B570000000000380000000200000000 ip:192.168.2.233 port:10011
+2018-08-24 11:17:25  [ NioDatagramAcceptor-1:4231604 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10012 receive data:00000000969DF32A4103689B1B97466A00000000003800000001000000000028DF654FFED9A59AA3AFEA709CCE5EC5DD9D1B9D4C3336305030303638424244323239374344333034
+2018-08-24 15:56:24  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-24 15:56:53  [ http-nio-10010-exec-2:29308 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=71371cc8-d5fb-4457-acdd-32c728281ef6, gatewayId=71371cc8-d5fb-4457-acdd-32c728281ef6, service=CoapServiceData(serviceId=coapService, serviceType=coapService, data=PostMetadata(metadata=qgBLRFkyMDE4MTYyNBGwCAAAewEBAAAAJBIDMS4wMCwsABQBa8YzhScBAAAOZTwBAAAAIloNAAAAAFsNAAAAAFwNAAAAAF0NAAAAAF8OAAAAACYCAAAAAI2r), eventTime=20180816T115424Z))
+2018-08-24 15:56:54  [ pool-4-thread-1:29832 ] - [ INFO ]  task count device group
+2018-08-24 15:56:54  [ pool-4-thread-1:29841 ] - [ INFO ]  dataplatform query device group success and begin to analysis ktv data
+2018-08-24 15:59:27  [ http-nio-10010-exec-3:182679 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=71371cc8-d5fb-4457-acdd-32c728281ef6, gatewayId=71371cc8-d5fb-4457-acdd-32c728281ef6, service=CoapServiceData(serviceId=coapService, serviceType=coapService, data=PostMetadata(metadata=qgBLRFkyMDE4MTYyNBGwCAAAewEBAAAAJBIDMS4wMCwsABQBa8YzhScBAAAOZTwBAAAAIloNAAAAAFsNAAAAAFwNAAAAAF0NAAAAAF8OAAAAACYCAAAAAI2r), eventTime=20180816T115424Z))
+2018-08-24 15:59:29  [ pool-4-thread-1:185133 ] - [ INFO ]  task count device group
+2018-08-24 15:59:29  [ pool-4-thread-1:185146 ] - [ INFO ]  dataplatform query device group success and begin to analysis ktv data

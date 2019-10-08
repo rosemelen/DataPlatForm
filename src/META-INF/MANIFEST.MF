@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Class-Path: aspectjweaver-1.8.13.jar guava-24.0-jre.jar validation-api
+ -2.0.1.Final.jar spring-boot-starter-jdbc-2.0.1.RELEASE.jar okio-1.9.
+ 0.jar okhttp-3.4.1.jar bit-lib4j-1.4.13.jar classmate-1.3.4.jar joda-
+ time-2.9.9.jar jandex-2.0.3.Final.jar spring-context-5.0.5.RELEASE.ja
+ r spring-boot-2.0.1.RELEASE.jar snakeyaml-1.19.jar jackson-datatype-j
+ sr310-2.9.5.jar jackson-datatype-jdk8-2.9.5.jar slf4j-api-1.7.25.jar 
+ logback-classic-1.2.3.jar hibernate-core-5.2.16.Final.jar spring-web-
+ 5.0.5.RELEASE.jar spring-webmvc-5.0.5.RELEASE.jar fastjson-1.2.41.jar
+  commons-io-2.4.jar javassist-3.22.0-GA.jar hibernate-commons-annotat
+ ions-5.0.1.Final.jar commons-codec-1.9.jar hibernate-jpa-2.1-api-1.0.
+ 0.Final.jar c3p0-0.9.5.2.jar error_prone_annotations-2.1.3.jar common
+ s-lang-2.6.jar mysql-connector-java-5.1.46.jar spring-expression-5.0.
+ 5.RELEASE.jar logback-core-1.2.3.jar jackson-annotations-2.9.0.jar ja
+ ckson-module-parameter-names-2.9.5.jar log4j-1.2.17.jar spring-core-5
+ .0.5.RELEASE.jar spring-data-commons-2.0.6.RELEASE.jar cloning-1.9.9.
+ jar lombok-1.16.20.jar spring-boot-starter-2.0.1.RELEASE.jar animal-s
+ niffer-annotations-1.14.jar HikariCP-2.7.8.jar spring-aop-5.0.5.RELEA
+ SE.jar spring-boot-starter-aop-2.0.1.RELEASE.jar spring-orm-5.0.5.REL
+ EASE.jar spring-boot-starter-tomcat-2.0.1.RELEASE.jar jackson-databin
+ d-2.9.5.jar spring-boot-autoconfigure-2.0.1.RELEASE.jar jboss-logging
+ -3.3.2.Final.jar spring-tx-5.0.5.RELEASE.jar mchange-commons-java-0.2
+ .11.jar jackson-core-2.9.5.jar checker-compat-qual-2.0.0.jar spring-b
+ oot-starter-logging-2.0.1.RELEASE.jar objenesis-2.6.jar dom4j-1.6.1.j
+ ar spring-boot-starter-data-jpa-2.0.1.RELEASE.jar mina-core-2.0.4.jar
+  spring-beans-5.0.5.RELEASE.jar spring-jcl-5.0.5.RELEASE.jar mongo-ja
+ va-driver-3.0.2.jar spring-aspects-5.0.5.RELEASE.jar spring-boot-star
+ ter-web-2.0.1.RELEASE.jar commons-io-2.4.jar httpcore-4.4.4.jar httpm
+ ime-4.5.2.jar api-client-1.0.0.jar httpclient-4.5.2.jar commons-codec
+ -1.9.jar jackson-core-2.5.4.jar commons-logging-1.2.jar jackson-datab
+ ind-2.5.4.jar commons-collections-3.2.1.jar jackson-annotations-2.5.4
+ .jar javax.annotation-api-1.3.2.jar antlr-2.7.7.jar j2objc-annotation
+ s-1.1.jar log4j-api-2.10.0.jar spring-data-jpa-2.0.6.RELEASE.jar spri
+ ng-boot-starter-json-2.0.1.RELEASE.jar jul-to-slf4j-1.7.25.jar tomcat
+ -embed-core-8.5.29.jar api-client-1.0.0.jar tomcat-embed-el-8.5.29.ja
+ r spring-jdbc-5.0.5.RELEASE.jar hibernate-validator-6.0.9.Final.jar t
+ omcat-embed-websocket-8.5.29.jar log4j-to-slf4j-2.10.0.jar jsr305-1.3
+ .9.jar javax.transaction-api-1.2.jar
+Main-Class: dy.entry.DyDataplatformAccessserviceApplication
+

@@ -1,0 +1,20 @@
+2018-07-18 10:02:56  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-18 10:05:09  [ https-jsse-nio-8443-exec-3:132668 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=xxx, gatewayId=xxx, service=CoapServiceData(serviceId=xxx, serviceType=xxx, data=PostMetadata(metadata=null), eventTime=20170311T163657Z))
+2018-07-18 10:05:52  [ https-jsse-nio-8443-exec-6:175876 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=dffcf958-aad1-4b41-a403-dcc3dce7a763, gatewayId=dffcf958-aad1-4b41-a403-dcc3dce7a763, service=CoapServiceData(serviceId=PostData, serviceType=PostData, data=PostMetadata(metadata=QUJDREVBQkNERQ==), eventTime=20180717T075454Z))
+2018-07-18 10:05:54  [ pool-4-thread-1:177679 ] - [ INFO ]  task count device group
+2018-07-18 10:05:54  [ pool-4-thread-1:177759 ] - [ ERROR ]  dataplatform query devicesn error :
+2018-07-18 10:06:44  [ https-jsse-nio-8443-exec-2:228052 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=xxx, gatewayId=xxx, service=CoapServiceData(serviceId=xxx, serviceType=xxx, data=PostMetadata(metadata=null), eventTime=20170311T163657Z))
+2018-07-18 10:08:15  [ https-jsse-nio-8443-exec-5:318914 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, gatewayId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, service=CoapServiceData(serviceId=arrayService, serviceType=arrayService, data=PostMetadata(metadata=QkI=), eventTime=20180718T020737Z))
+2018-07-18 10:08:15  [ pool-4-thread-1:318916 ] - [ INFO ]  task count device group
+2018-07-18 10:09:33  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-18 10:10:22  [ https-jsse-nio-8443-exec-5:49320 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, gatewayId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, service=CoapServiceData(serviceId=arrayService, serviceType=arrayService, data=PostMetadata(msgid=0, metadata=QkI=), eventTime=20180718T020938Z))
+2018-07-18 10:10:40  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-18 10:11:00  [ https-jsse-nio-8443-exec-5:19639 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, gatewayId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, service=CoapServiceData(serviceId=arrayService, serviceType=arrayService, data=PostMetadata(msgid=0, metadata=QkI=, test=0), eventTime=20180718T021043Z))
+2018-07-18 10:11:00  [ pool-4-thread-1:19653 ] - [ INFO ]  task count device group
+2018-07-18 10:11:00  [ pool-4-thread-1:19720 ] - [ ERROR ]  dataplatform query devicesn error :
+2018-07-18 10:11:18  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-18 10:11:35  [ https-jsse-nio-8443-exec-7:16384 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, gatewayId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, service=CoapServiceData(serviceId=arrayService, serviceType=arrayService, data=PostMetadata(msgid=null, metadata=QkI=, test=0), eventTime=20180718T021120Z))
+2018-07-18 10:12:18  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-18 10:12:27  [ https-jsse-nio-8443-exec-2:9761 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, gatewayId=baac93ab-a1ec-4a5c-b06d-757a44bff61b, service=CoapServiceData(serviceId=arrayService, serviceType=arrayService, data=PostMetadata(metadata=QkI=), eventTime=20180718T021228Z))
+2018-07-18 10:13:26  [ pool-4-thread-1:68697 ] - [ INFO ]  task count device group
+2018-07-18 17:50:27  [ main:0 ] - [ INFO ]  dataplatform access service start.

@@ -1,0 +1,46 @@
+2018-07-25 15:50:25  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 15:51:06  [ http-nio-10010-exec-1:41016 ] - [ INFO ]  data platform received config data [{"configtype":"block","data":{"timeservice":"false","privatedata":[{"k":2,"t":"int","v":23}]},"configid":"134218","sn":"DY2012062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}]
+2018-07-25 15:53:28  [ http-nio-10010-exec-3:183084 ] - [ INFO ]  data platform received config data [{"configtype":"block","data":{"timeservice":"false","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2017061408","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}]
+2018-07-25 16:08:17  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 16:31:42  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 16:52:15  [ https-jsse-nio-8443-exec-5:1233379 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=696741ab-6e16-457c-83a0-c9e12464fbe4, gatewayId=696741ab-6e16-457c-83a0-c9e12464fbe4, service=CoapServiceData(serviceId=arrayService, serviceType=arrayService, data=PostMetadata(metadata=VQ==), eventTime=20180725T070504Z))
+2018-07-25 16:52:17  [ pool-4-thread-1:1235010 ] - [ INFO ]  task count device group
+2018-07-25 16:52:17  [ pool-4-thread-1:1235017 ] - [ INFO ]  task begin to push device data by url
+2018-07-25 16:52:17  [ pool-4-thread-1:1235064 ] - [ INFO ]  dataplatform task push device data url : http://192.168.2.83:8881/test  data : {"data":[{"createdate":"2018-07-25 16:52:15","devicedata":"VQ==","deviceid":"696741ab-6e16-457c-83a0-c9e12464fbe4","devicesn":"DY2017061408","metadata":"55"}],"msgid":"201807251652174178910205"}
+2018-07-25 16:52:17  [ pool-4-thread-1:1235064 ] - [ INFO ]  data platform task insert device data into mongodb
+2018-07-25 16:52:51  [ https-jsse-nio-8443-exec-1:1268796 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=xxx, gatewayId=xxx, service=CoapServiceData(serviceId=xxx, serviceType=xxx, data=PostMetadata(metadata=null), eventTime=20170311T163657Z))
+2018-07-25 16:56:44  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 17:11:13  [ https-jsse-nio-8443-exec-4:868741 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=cb0eb8e6-b89a-4b8c-bb21-656c21a73b97, gatewayId=cb0eb8e6-b89a-4b8c-bb21-656c21a73b97, service=CoapServiceData(serviceId=coapService, serviceType=coapService, data=PostMetadata(metadata=RQ==), eventTime=20180725T091113Z))
+2018-07-25 17:11:14  [ pool-4-thread-1:869991 ] - [ ERROR ]  dataplatform query coapdeviceid error :cb0eb8e6-b89a-4b8c-bb21-656c21a73b97
+2018-07-25 17:17:56  [ https-jsse-nio-8443-exec-9:1272181 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=cfb8388b-8e63-4d16-bb3f-f4245200b090, gatewayId=cfb8388b-8e63-4d16-bb3f-f4245200b090, service=CoapServiceData(serviceId=coapService, serviceType=coapService, data=PostMetadata(metadata=Rg==), eventTime=20180725T091757Z))
+2018-07-25 17:17:59  [ pool-4-thread-1:1275043 ] - [ INFO ]  task count device group
+2018-07-25 17:17:59  [ pool-4-thread-1:1275048 ] - [ INFO ]  task begin to push device data by url
+2018-07-25 17:17:59  [ pool-4-thread-1:1275049 ] - [ INFO ]  data platform task insert device data into mongodb
+2018-07-25 17:21:40  [ http-nio-10010-exec-1:1496231 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"false","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:25:15  [ http-nio-10010-exec-3:1710750 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"false","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:28:46  [ http-nio-10010-exec-4:1921972 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"true","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:29:58  [ http-nio-10010-exec-6:1994405 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"true","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:31:49  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 17:31:56  [ http-nio-10010-exec-1:7040 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"true","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:35:33  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 17:35:39  [ http-nio-10010-exec-1:5866 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"true","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:35:50  [ http-nio-10010-exec-1:17439 ] - [ ERROR ]  
+2018-07-25 17:36:57  [ http-nio-10010-exec-3:83567 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"true","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:39:04  [ http-nio-10010-exec-3:211044 ] - [ ERROR ]  
+2018-07-25 17:42:13  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 17:42:14  [ http-nio-10010-exec-1:165 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"true","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:42:25  [ http-nio-10010-exec-1:11786 ] - [ ERROR ]  
+2018-07-25 17:44:57  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 17:45:37  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 17:45:40  [ http-nio-10010-exec-1:3292 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"true","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 17:45:52  [ http-nio-10010-exec-1:14871 ] - [ ERROR ]  1003  Process data error before invoke API.
+2018-07-25 17:47:17  [ https-jsse-nio-8443-exec-8:100564 ] - [ INFO ]  messageConfirm :  [{"body":{"xxx":"xxx"},"notifyType":"messageConfirm","header":{"requestId":"xxx","from":"xxx","to":"xxx","status":"xxx","timestamp":"20151212T121212Z"}}]
+2018-07-25 17:47:22  [ https-jsse-nio-8443-exec-9:104925 ] - [ INFO ]  commandRspData:  [{"body":{"xxx":"xxx"},"notifyType":"commandRsp","header":{"serviceType":"xxx","requestId":"xxx","from":"xxx","to":"xxx","deviceId":"xxx"}}]
+2018-07-25 17:47:24  [ https-jsse-nio-8443-exec-10:107646 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=xxx, gatewayId=xxx, service=CoapServiceData(serviceId=xxx, serviceType=xxx, data=PostMetadata(metadata=null), eventTime=20170311T163657Z))
+2018-07-25 17:53:41  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-07-25 17:54:52  [ https-jsse-nio-8443-exec-5:71630 ] - [ INFO ]  commandRspData:  [{"body":{"xxx":"xxx"},"notifyType":"commandRsp","header":{"serviceType":"xxx","requestId":"xxx","from":"xxx","to":"xxx","deviceId":"xxx"}}]
+2018-07-25 17:55:20  [ http-nio-10010-exec-1:98776 ] - [ INFO ]  data platform received config data [{"configtype":"coap","data":{"timeservice":"true","configdata":"testdatatestdata"},"configid":"134218","sn":"DY2018072503","bussinesskey":"b68f5cc0d66a1d4e63db408d556f89a1"}]
+2018-07-25 18:00:45  [ https-jsse-nio-8443-exec-10:423956 ] - [ INFO ]  data platform received coap data CoapPostMetadata(notifyType=deviceDataChanged, deviceId=cfb8388b-8e63-4d16-bb3f-f4245200b090, gatewayId=cfb8388b-8e63-4d16-bb3f-f4245200b090, service=CoapServiceData(serviceId=coapService, serviceType=coapService, data=PostMetadata(metadata=AAAIeEkqAQQCAQJGJSUAAAAAa1li8QAAAADGCQ==), eventTime=20180725T100046Z))
+2018-07-25 18:00:46  [ pool-4-thread-1:424841 ] - [ INFO ]  task count device group
+2018-07-25 18:00:46  [ pool-4-thread-1:424846 ] - [ INFO ]  task begin to push device data by url
+2018-07-25 18:00:46  [ pool-4-thread-1:424846 ] - [ INFO ]  data platform task insert device data into mongodb

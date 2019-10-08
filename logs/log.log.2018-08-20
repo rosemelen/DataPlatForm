@@ -1,0 +1,235 @@
+2018-08-20 09:38:10  [ http-nio-10010-exec-8:168672882 ] - [ INFO ]  data platform received config data [{"configtype":"rtu","data":{"privatedata":[{"t":"int","v":"201","k":"14"},{"t":"int","v":"20","k":"5"}],"timeservice":"false"},"configid":201,"msgid":"180726180035","sn":"ZR1805100021","bussinesskey":"dda0dfcc1df7b14cb1198d415df4687f"}]
+2018-08-20 10:08:18  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 10:11:38  [ http-nio-10010-exec-2:200640 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"111115","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 10:12:55  [ http-nio-10010-exec-4:277880 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000016666"},"configid":"111116","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 10:16:06  [ http-nio-10010-exec-8:468518 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000016666"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 10:16:14  [ NioDatagramAcceptor-1:476543 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10033 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 10:16:14  [ NioDatagramAcceptor-1:476544 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 10:16:14  [ NioDatagramAcceptor-1:476547 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 10:16:14  [ NioDatagramAcceptor-1:476548 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10033 response:02000043004B44593230313330363231313501030000000200000001555503000000020000000155550300000002000000015555030000000200000001666603000000020000000155550300000002000000016666
+2018-08-20 10:51:26  [ main:0 ] - [ INFO ]  Starting DyDataplatformAccessserviceApplication on RoseMelon with PID 80516 (D:\IdeaProjects\20180220DYplatform\dataplatform\target\classes started by Administrator in D:\IdeaProjects\20180220DYplatform\dataplatform)
+2018-08-20 10:51:26  [ main:23 ] - [ DEBUG ]  Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-20 10:51:26  [ main:24 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2018-08-20 10:51:35  [ main:9081 ] - [ INFO ]  Started DyDataplatformAccessserviceApplication in 9.691 seconds (JVM running for 13.337)
+2018-08-20 10:51:35  [ main:9084 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 11:03:43  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 11:06:14  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 11:08:26  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 11:08:46  [ http-nio-10010-exec-1:19951 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000016666"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 11:08:57  [ http-nio-10010-exec-2:31066 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000016111"},"configid":"111","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 11:09:08  [ http-nio-10010-exec-3:42664 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000016222"},"configid":"112","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 11:09:35  [ NioDatagramAcceptor-1:68989 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10044 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 11:09:35  [ NioDatagramAcceptor-1:68990 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 11:09:35  [ NioDatagramAcceptor-1:69003 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 11:09:35  [ NioDatagramAcceptor-1:69004 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10044 response:02000043004B44593230313330363231313501030000000200000001555503000000020000000166660300000002000000015555030000000200000001611103000000020000000155550300000002000000016222
+2018-08-20 11:19:47  [ NioDatagramAcceptor-1:681108 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10044 receive data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 11:19:47  [ NioDatagramAcceptor-1:681108 ] - [ INFO ]  devicesn:DY2013062115 device data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 11:19:47  [ NioDatagramAcceptor-1:681109 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 11:19:47  [ NioDatagramAcceptor-1:681110 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10044 response:01000001004A44593230313330363231313500
+2018-08-20 11:19:51  [ pool-4-thread-1:684910 ] - [ INFO ]  task count device group
+2018-08-20 11:19:51  [ pool-4-thread-1:685057 ] - [ INFO ]  task begin to push device data by url
+2018-08-20 11:19:51  [ pool-4-thread-1:685182 ] - [ INFO ]  dataplatform task push device data url : http://www.baidu.com  data : {"data":[{"createdate":"2018-08-20 11:19:47","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201119511036917639"}
+2018-08-20 11:19:51  [ pool-4-thread-1:685182 ] - [ INFO ]  data platform task insert device data into mongodb
+2018-08-20 11:19:51  [ OkHttp http://www.baidu.com/...:685660 ] - [ INFO ]  http://www.baidu.com success data : {"data":[{"createdate":"2018-08-20 11:19:47","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201119511036917639"}
+2018-08-20 11:20:07  [ NioDatagramAcceptor-1:701197 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10044 receive data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 11:20:09  [ NioDatagramAcceptor-1:702836 ] - [ INFO ]  devicesn:DY2013062115 device data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 11:20:18  [ pool-4-thread-1:711766 ] - [ INFO ]  task count device group
+2018-08-20 11:20:18  [ NioDatagramAcceptor-1:711768 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 11:20:18  [ pool-4-thread-1:711797 ] - [ INFO ]  task begin to push device data by url
+2018-08-20 11:20:19  [ NioDatagramAcceptor-1:713320 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10044 response:01000001004A44593230313330363231313500
+2018-08-20 11:20:19  [ pool-4-thread-1:713321 ] - [ INFO ]  dataplatform task push device data url : http://www.baidu.com  data : {"data":[{"createdate":"2018-08-20 11:20:09","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201120196039415048"}
+2018-08-20 11:20:19  [ pool-4-thread-1:713321 ] - [ INFO ]  data platform task insert device data into mongodb
+2018-08-20 11:20:19  [ OkHttp http://www.baidu.com/...:713440 ] - [ INFO ]  http://www.baidu.com success data : {"data":[{"createdate":"2018-08-20 11:20:09","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201120196039415048"}
+2018-08-20 11:20:35  [ NioDatagramAcceptor-1:729207 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10044 receive data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 11:20:35  [ NioDatagramAcceptor-1:729207 ] - [ INFO ]  devicesn:DY2013062115 device data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 11:22:32  [ NioDatagramAcceptor-1:846227 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 11:22:32  [ pool-4-thread-1:846228 ] - [ INFO ]  task count device group
+2018-08-20 11:22:32  [ pool-4-thread-1:846234 ] - [ INFO ]  task begin to push device data by url
+2018-08-20 11:22:32  [ pool-4-thread-1:846235 ] - [ INFO ]  dataplatform task push device data url : http://www.baidu.com  data : {"data":[{"createdate":"2018-08-20 11:20:35","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201122328047031282"}
+2018-08-20 11:22:32  [ pool-4-thread-1:846235 ] - [ INFO ]  data platform task insert device data into mongodb
+2018-08-20 11:22:32  [ NioDatagramAcceptor-1:846252 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10044 response:01000001004A44593230313330363231313500
+2018-08-20 11:22:32  [ NioDatagramAcceptor-1:846252 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10044 receive data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 11:22:32  [ NioDatagramAcceptor-1:846252 ] - [ INFO ]  devicesn:DY2013062115 device data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 11:23:07  [ OkHttp http://www.baidu.com/...:880994 ] - [ INFO ]  http://www.baidu.com success data : {"data":[{"createdate":"2018-08-20 11:20:35","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201122328047031282"}
+2018-08-20 11:24:38  [ NioDatagramAcceptor-1:972548 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 11:24:38  [ NioDatagramAcceptor-1:972549 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10044 response:01000001004A44593230313330363231313500
+2018-08-20 11:24:40  [ pool-4-thread-1:974298 ] - [ INFO ]  task count device group
+2018-08-20 11:24:40  [ pool-4-thread-1:974304 ] - [ INFO ]  task begin to push device data by url
+2018-08-20 11:24:40  [ pool-4-thread-1:974304 ] - [ INFO ]  dataplatform task push device data url : http://www.baidu.com  data : {"data":[{"createdate":"2018-08-20 11:22:32","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201124408357617473"}
+2018-08-20 11:24:40  [ pool-4-thread-1:974304 ] - [ INFO ]  data platform task insert device data into mongodb
+2018-08-20 11:24:40  [ OkHttp http://www.baidu.com/...:974407 ] - [ INFO ]  http://www.baidu.com success data : {"data":[{"createdate":"2018-08-20 11:22:32","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201124408357617473"}
+2018-08-20 14:50:12  [ NioDatagramAcceptor-1:13306379 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 14:50:12  [ NioDatagramAcceptor-1:13306415 ] - [ INFO ]  devicesn:DY2013062115 device data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 14:50:55  [ pool-4-thread-1:13349570 ] - [ INFO ]  task count device group
+2018-08-20 14:50:57  [ pool-4-thread-1:13351001 ] - [ INFO ]  task begin to push device data by url
+2018-08-20 14:50:57  [ pool-4-thread-1:13351591 ] - [ INFO ]  dataplatform task push device data url : http://www.baidu.com  data : {"data":[{"createdate":"2018-08-20 14:50:12","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201450579890109481"}
+2018-08-20 14:50:57  [ pool-4-thread-1:13351591 ] - [ INFO ]  data platform task insert device data into mongodb
+2018-08-20 14:51:09  [ NioDatagramAcceptor-1:13363346 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 14:51:09  [ NioDatagramAcceptor-1:13363347 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:01000001004A44593230313330363231313500
+2018-08-20 14:51:09  [ OkHttp http://www.baidu.com/...:13363365 ] - [ INFO ]  http://www.baidu.com success data : {"data":[{"createdate":"2018-08-20 14:50:12","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201450579890109481"}
+2018-08-20 14:52:24  [ NioDatagramAcceptor-1:13438376 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 14:52:24  [ NioDatagramAcceptor-1:13438377 ] - [ INFO ]  devicesn:DY2013062115 device data:0100000D005944593230313330363231313501000000000032000363CD22B9
+2018-08-20 14:53:25  [ pool-4-thread-1:13498982 ] - [ INFO ]  task count device group
+2018-08-20 14:53:26  [ pool-4-thread-1:13500170 ] - [ INFO ]  task begin to push device data by url
+2018-08-20 14:53:26  [ pool-4-thread-1:13500524 ] - [ INFO ]  dataplatform task push device data url : http://www.baidu.com  data : {"data":[{"createdate":"2018-08-20 14:52:24","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201453262403098292"}
+2018-08-20 14:53:26  [ pool-4-thread-1:13500524 ] - [ INFO ]  data platform task insert device data into mongodb
+2018-08-20 14:53:29  [ NioDatagramAcceptor-1:13503641 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 14:53:29  [ NioDatagramAcceptor-1:13503642 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:01000001004A44593230313330363231313500
+2018-08-20 14:53:29  [ OkHttp http://www.baidu.com/...:13503727 ] - [ INFO ]  http://www.baidu.com success data : {"data":[{"createdate":"2018-08-20 14:52:24","devicesn":"DY2013062115","metadata":"01000000000032000363CD22B9"}],"msgid":"201808201453262403098292"}
+2018-08-20 14:54:46  [ NioDatagramAcceptor-1:13579927 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 14:54:46  [ NioDatagramAcceptor-1:13579927 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 14:56:53  [ NioDatagramAcceptor-1:13707247 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 14:56:53  [ NioDatagramAcceptor-1:13707248 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:02000043004B44593230313330363231313501030000000200000001555503000000020000000166660300000002000000015555030000000200000001611103000000020000000155550300000002000000016222
+2018-08-20 14:58:43  [ NioDatagramAcceptor-1:13816787 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 14:58:43  [ NioDatagramAcceptor-1:13816788 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 15:00:30  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 15:01:14  [ http-nio-10010-exec-1:43559 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"0300000002000000015555030000000200000001555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:01:24  [ http-nio-10010-exec-2:54111 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"0300000002000000015555030000000200000001666"},"configid":"111","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:01:31  [ http-nio-10010-exec-3:60873 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"0300000002000000015555030000000200000001777"},"configid":"112","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:01:41  [ NioDatagramAcceptor-1:71041 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:01:41  [ NioDatagramAcceptor-1:71042 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:02:13  [ NioDatagramAcceptor-1:102638 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:02:13  [ NioDatagramAcceptor-1:102638 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:02:25  [ NioDatagramAcceptor-1:114766 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:02:25  [ NioDatagramAcceptor-1:114766 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:02:59  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 15:03:30  [ http-nio-10010-exec-1:31053 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"0300000002000000015555030000000200000001555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:03:49  [ http-nio-10010-exec-2:50031 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"0300000002000000015555030000000200000001666"},"configid":"111","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:03:58  [ http-nio-10010-exec-3:58451 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"0300000002000000015555030000000200000001777"},"configid":"112","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:04:25  [ NioDatagramAcceptor-1:85849 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:04:25  [ NioDatagramAcceptor-1:85850 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:06:13  [ NioDatagramAcceptor-1:194159 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:06:13  [ NioDatagramAcceptor-1:194160 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:07:46  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 15:07:58  [ http-nio-10010-exec-1:12296 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"0300000002000000015555030000000200000001777"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:08:06  [ NioDatagramAcceptor-1:19815 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:08:06  [ NioDatagramAcceptor-1:19816 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:11:17  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 15:11:44  [ http-nio-10010-exec-1:27384 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:11:54  [ NioDatagramAcceptor-1:36762 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:11:54  [ NioDatagramAcceptor-1:36763 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:12:29  [ NioDatagramAcceptor-1:71556 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 15:12:29  [ NioDatagramAcceptor-1:71557 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:24000017004B4459323031333036323131350103000000020000000155550300000002000000015555
+2018-08-20 15:12:53  [ NioDatagramAcceptor-1:96033 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 15:12:53  [ NioDatagramAcceptor-1:96033 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 15:13:53  [ NioDatagramAcceptor-1:155450 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 15:13:53  [ NioDatagramAcceptor-1:155450 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 15:14:12  [ NioDatagramAcceptor-1:174567 ] - [ INFO ]  remove config cache of device : DY2013062115
+2018-08-20 15:14:12  [ NioDatagramAcceptor-1:174567 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 15:14:12  [ NioDatagramAcceptor-1:174567 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 15:14:12  [ NioDatagramAcceptor-1:174567 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
+2018-08-20 15:14:30  [ http-nio-10010-exec-10:192427 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:15:11  [ NioDatagramAcceptor-1:234126 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:15:11  [ NioDatagramAcceptor-1:234127 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:15:15  [ NioDatagramAcceptor-1:237734 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 15:15:15  [ NioDatagramAcceptor-1:237734 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:44000017004B4459323031333036323131350103000000020000000155550300000002000000015555
+2018-08-20 15:15:28  [ NioDatagramAcceptor-1:251273 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 15:15:28  [ NioDatagramAcceptor-1:251274 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 15:21:12  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 15:21:17  [ http-nio-10010-exec-1:5613 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 15:21:28  [ NioDatagramAcceptor-1:15686 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:21:28  [ NioDatagramAcceptor-1:15687 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 15:21:31  [ NioDatagramAcceptor-1:19345 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 15:21:31  [ NioDatagramAcceptor-1:19346 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:04000017004B4459323031333036323131350103000000020000000155550300000002000000015555
+2018-08-20 15:22:06  [ NioDatagramAcceptor-1:53773 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 15:22:06  [ NioDatagramAcceptor-1:53773 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 15:22:26  [ NioDatagramAcceptor-1:74645 ] - [ INFO ]  remove config cache of device : DY2013062115
+2018-08-20 15:22:26  [ NioDatagramAcceptor-1:74645 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 15:22:26  [ NioDatagramAcceptor-1:74645 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 15:22:26  [ NioDatagramAcceptor-1:74646 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
+2018-08-20 16:40:53  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 16:41:01  [ http-nio-10010-exec-1:7276 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 16:41:20  [ NioDatagramAcceptor-1:26147 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 16:41:20  [ NioDatagramAcceptor-1:26149 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 16:41:22  [ NioDatagramAcceptor-1:28510 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 16:41:22  [ NioDatagramAcceptor-1:28511 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:03000017004B4459323031333036323131350103000000020000000155550300000002000000015555
+2018-08-20 16:41:45  [ NioDatagramAcceptor-1:52067 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 16:41:45  [ NioDatagramAcceptor-1:52067 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 16:44:40  [ NioDatagramAcceptor-1:226834 ] - [ INFO ]  remove config cache of device : DY2013062115
+2018-08-20 16:44:40  [ NioDatagramAcceptor-1:226834 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 16:44:40  [ NioDatagramAcceptor-1:226834 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 16:44:40  [ NioDatagramAcceptor-1:226834 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
+2018-08-20 16:45:04  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 17:24:14  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 17:24:19  [ http-nio-10010-exec-1:4938 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 17:24:31  [ http-nio-10010-exec-2:16142 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000011111"},"configid":"111","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 17:24:38  [ http-nio-10010-exec-3:23888 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000012222"},"configid":"112","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 17:25:00  [ NioDatagramAcceptor-1:45698 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 17:25:00  [ NioDatagramAcceptor-1:45699 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 17:25:06  [ NioDatagramAcceptor-1:51692 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 17:25:06  [ NioDatagramAcceptor-1:51694 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:03000043004B44593230313330363231313501030000000200000001555503000000020000000155550300000002000000015555030000000200000001111103000000020000000155550300000002000000012222
+2018-08-20 17:27:40  [ NioDatagramAcceptor-1:205477 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 17:27:40  [ NioDatagramAcceptor-1:205478 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 17:52:16  [ NioDatagramAcceptor-1:1681780 ] - [ INFO ]  remove config cache of device : DY2013062115
+2018-08-20 17:52:16  [ NioDatagramAcceptor-1:1681785 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 17:52:16  [ NioDatagramAcceptor-1:1681786 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 17:52:16  [ NioDatagramAcceptor-1:1681786 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
+2018-08-20 17:52:28  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 17:52:34  [ http-nio-10010-exec-2:5935 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 17:52:37  [ http-nio-10010-exec-1:9195 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"111","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 17:52:40  [ http-nio-10010-exec-3:12258 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"112","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 17:52:53  [ NioDatagramAcceptor-1:25231 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 17:52:53  [ NioDatagramAcceptor-1:25232 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 17:56:44  [ NioDatagramAcceptor-1:256111 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 17:56:44  [ NioDatagramAcceptor-1:256127 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:48000043004B44593230313330363231313501030000000200000001555503000000020000000155550300000002000000015555030000000200000001555503000000020000000155550300000002000000015555
+2018-08-20 17:59:06  [ NioDatagramAcceptor-1:397859 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 17:59:06  [ NioDatagramAcceptor-1:397860 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 17:59:08  [ NioDatagramAcceptor-1:399691 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 17:59:08  [ NioDatagramAcceptor-1:399692 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:48000043004B44593230313330363231313501030000000200000001555503000000020000000155550300000002000000015555030000000200000001555503000000020000000155550300000002000000015555
+2018-08-20 18:00:26  [ NioDatagramAcceptor-1:477597 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 18:00:26  [ NioDatagramAcceptor-1:477597 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 18:00:38  [ NioDatagramAcceptor-1:490180 ] - [ INFO ]  remove config cache of device : DY2013062115
+2018-08-20 18:00:39  [ NioDatagramAcceptor-1:490926 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 18:00:42  [ NioDatagramAcceptor-1:493987 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:00:42  [ NioDatagramAcceptor-1:493987 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
+2018-08-20 18:01:05  [ NioDatagramAcceptor-1:517132 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 18:01:05  [ NioDatagramAcceptor-1:517132 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 18:01:47  [ NioDatagramAcceptor-1:558621 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 18:01:47  [ NioDatagramAcceptor-1:558622 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:01:47  [ NioDatagramAcceptor-1:558622 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
+2018-08-20 18:23:57  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 18:23:59  [ http-nio-10010-exec-1:1895 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:24:02  [ http-nio-10010-exec-2:5169 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"111","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:24:11  [ http-nio-10010-exec-3:14065 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000016666"},"configid":"112","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:24:26  [ NioDatagramAcceptor-1:28808 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 18:24:26  [ NioDatagramAcceptor-1:28809 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 18:24:28  [ NioDatagramAcceptor-1:31061 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:24:28  [ NioDatagramAcceptor-1:31063 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:02000043004B44593230313330363231313501030000000200000001555503000000020000000155550300000002000000015555030000000200000001555503000000020000000155550300000002000000016666
+2018-08-20 18:24:54  [ NioDatagramAcceptor-1:56942 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 18:24:54  [ NioDatagramAcceptor-1:56942 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 18:45:44  [ main:0 ] - [ INFO ]  dataplatform access service start.
+2018-08-20 18:45:53  [ http-nio-10010-exec-1:8747 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"110","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:45:56  [ http-nio-10010-exec-2:12052 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"111","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:46:00  [ http-nio-10010-exec-3:15462 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"112","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:46:03  [ http-nio-10010-exec-4:19204 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000015555"},"configid":"113","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:46:10  [ http-nio-10010-exec-5:26215 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000016666"},"configid":"114","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:46:25  [ NioDatagramAcceptor-1:40392 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 18:46:25  [ NioDatagramAcceptor-1:40393 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 18:46:26  [ NioDatagramAcceptor-1:41774 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:46:26  [ NioDatagramAcceptor-1:41775 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:02000059004B4459323031333036323131350103000000020000000155550300000002000000015555030000000200000001555503000000020000000155550300000002000000015555030000000200000001555503000000020000000155550300000002000000015555
+2018-08-20 18:46:44  [ NioDatagramAcceptor-1:59463 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 18:46:44  [ NioDatagramAcceptor-1:59463 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 18:46:59  [ NioDatagramAcceptor-1:74685 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 18:46:59  [ NioDatagramAcceptor-1:74685 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:46:59  [ NioDatagramAcceptor-1:74685 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
+2018-08-20 18:47:36  [ NioDatagramAcceptor-1:112038 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 18:47:36  [ NioDatagramAcceptor-1:112039 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 18:47:38  [ NioDatagramAcceptor-1:113725 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:47:38  [ NioDatagramAcceptor-1:113725 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:1A000017004B4459323031333036323131350103000000020000000155550300000002000000016666
+2018-08-20 18:47:53  [ NioDatagramAcceptor-1:129070 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 18:47:53  [ NioDatagramAcceptor-1:129070 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 18:48:25  [ NioDatagramAcceptor-1:160429 ] - [ INFO ]  remove config cache of device : DY2013062115
+2018-08-20 18:48:25  [ NioDatagramAcceptor-1:160429 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 18:48:25  [ NioDatagramAcceptor-1:160429 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:48:25  [ NioDatagramAcceptor-1:160429 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
+2018-08-20 18:48:59  [ http-nio-10010-exec-7:194596 ] - [ INFO ]  data platform received config data : {"configtype":"block","data":{"timeservice":"false","configdata":"03000000020000000155550300000002000000016666"},"configid":"114","msgid":"2018042416092510","sn":"DY2013062115","bussinesskey":"d273f79e0758904fec08c860e8b155fa"}  
+2018-08-20 18:49:14  [ NioDatagramAcceptor-1:209785 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:4E000003005B44593230313330363231313500006E
+2018-08-20 18:49:14  [ NioDatagramAcceptor-1:209785 ] - [ INFO ]  devicesn:DY2013062115 device data:4E000003005B44593230313330363231313500006E
+2018-08-20 18:49:15  [ NioDatagramAcceptor-1:211077 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:49:15  [ NioDatagramAcceptor-1:211077 ] - [ INFO ]  dataplatform send new response to device by block protocol: DY2013062115  ip: 192.168.2.233 port:10022 response:29000017004B4459323031333036323131350103000000020000000155550300000002000000016666
+2018-08-20 18:49:30  [ NioDatagramAcceptor-1:226097 ] - [ INFO ]  dataplatform receive block data ip: 192.168.2.233 port:10022 receive data:01000002005B4459323031333036323131350311
+2018-08-20 18:49:30  [ NioDatagramAcceptor-1:226097 ] - [ INFO ]  devicesn:DY2013062115 device data:01000002005B4459323031333036323131350311
+2018-08-20 18:49:32  [ NioDatagramAcceptor-1:227573 ] - [ INFO ]  remove config cache of device : DY2013062115
+2018-08-20 18:49:32  [ NioDatagramAcceptor-1:227574 ] - [ INFO ]  BINGO!!! receive ACK data from device:DY2013062115
+2018-08-20 18:49:32  [ NioDatagramAcceptor-1:227574 ] - [ INFO ]  dataplatform receive block data from device : DY2013062115
+2018-08-20 18:49:32  [ NioDatagramAcceptor-1:227574 ] - [ INFO ]  dataplatform block parse error receive data : 01000002005B4459323031333036323131350311
